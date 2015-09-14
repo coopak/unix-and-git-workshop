@@ -1,0 +1,18 @@
+git init : makes the current folder a git repository
+git clone : downloads exact image of respository from github
+git add <file> : starts tracking <file>
+git branch <branch> :  creates a new branch 
+git checkout <item> :  switches working branch
+git commit :  saves all staged changes to respository
+git push :  sends all commited changes to a remote git
+git fetch :  gets all commited changes from a remote git
+git pull :  gets all commited changes from a remote git repo AND merges to your local repo
+git status : displays all untracked and tracked changes in staging area
+git diff :  displayed changes not in staging area
+git rm :  remove file from directory
+git rm --chached : remove file from stagin area and stop tracking, but leave the file
+git mv : like shel mv but allows git to see the rename
+git log : displays commit history
+git commit --amend : allows to to change commit message if no files changed
+git reset HEAD file : allows to to UNstage a file
+
